@@ -7,6 +7,12 @@
 </head>
 
 <body>
+<?php
+ session_start();
+ if(!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE){
+ header("Location: ../../public/vista/login.html");
+ }
+?>
 
     <table style="width:100%">
         <tr>
@@ -42,7 +48,7 @@
                 echo " <td>" . $row["usu_eliminado"] . "</td>";
                 echo " <td> <a href='eliminar.php?codigo=" . $row['usu_id'] . "'>Eliminar</a> </td>";
                 echo " <td> <a href='modificar.php?codigo=" . $row['usu_id'] . "'>Modificar</a> </td>";
-                echo " <td> <a href='cambiar_contrasena.php?codigo=" . $row['usu_id'] . "'>Cambiarcontraseña</a> </td>";
+                /*echo " <td> <a href='cambiar_contrasena.php?codigo=" . $row['usu_id'] . "'>Cambiarcontraseña</a> </td>";*/
              
                 echo "</tr>";
             }
@@ -67,6 +73,7 @@
             <th>Longitud</th>
             <th>Motivo</th>
             <th>Observaciones</th>
+            <th>Eliminado</th>
            
             
            
@@ -93,6 +100,8 @@
                 echo " <td>" . $row1['reu_longitud'] . "</td>";
                 echo " <td>" . $row1['reu_motivo'] . "</td>";
                 echo " <td>" . $row1['reu_observaciones'] . "</td>";
+                echo " <td>" . $row1['reu_eliminado'] . "</td>";
+                echo " <td> <a href='eliminarreunion.php?eliminar=" . $row1['reu_id'] . "'>Eliminar</a> </td>";
              
                 echo "</tr>";
             }
