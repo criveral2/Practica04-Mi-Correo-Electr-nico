@@ -24,7 +24,7 @@
     /*$fechaNacimiento = isset($_POST["fechaNacimiento"]) ? trim($_POST["fechaNacimiento"]) : null;*/
     $contrasena = isset($_POST["contrasena"]) ? trim($_POST["contrasena"]) : null;
 
-    $sql = "INSERT INTO usuario VALUES (0,'usuario','$correo', MD5('$contrasena'), '$cedula', '$nombres', '$apellidos','$telefono', '$direccion',  'N', null, null)";
+    $sql = "INSERT INTO usuario VALUES (0,'usuario','$correo', '$contrasena', '$cedula', '$nombres', '$apellidos','$telefono', '$direccion',  'N', null, null)";
     if ($conn->query($sql) === TRUE) {
         echo "<p>Se ha creado los datos personales correctamemte!!!</p>";
     } else {
