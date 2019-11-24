@@ -24,7 +24,8 @@ if ($result->num_rows > 0) {
       header("Location: ../../admin/vista/usuario/index.php");
     }
     if($aux == 'usuario'){
-       /* header("Location: ../../admin/vista/usuario/index.php");*/
+    
+        header("Location: ../../admin/vista/usuario/index_usuario.php");
     }
     
 } else {
