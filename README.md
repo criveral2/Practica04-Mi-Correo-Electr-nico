@@ -7,9 +7,9 @@ ASIGNATURA: HIPERMEDIAL
 NRO. PRÁCTICA:	4	
 TÍTULO PRÁCTICA: Resolución de problemas sobre PHP y MySQL
 OBJETIVO ALCANZADO:
-Entender y organizar de una mejor manera los sitios de web en Internet
-• Diseñar adecuadamente elementos gráficos en sitios web en Internet.
-• Crear sitios web aplicando estándares actuales.
+Aplicar la combinación de diferentes lenguajes de programación como de diseño para así poder
+desarrollar una página web vinculada a una servidor de base de datos, el cual se asemejaría mas
+a una pagina implementada en la vida real.
 
 </pre>
 
@@ -114,14 +114,17 @@ Proyecto: https://github.com/criveral2/Practica04-Mi-Correo-Electr-nico.git
 <pre>
 
 RESULTADO(S) OBTENIDO(S):
-Tener el conocimiento suficiente para que el estudiante pueda entender y organizar de una mejor manera los sitios de
-web y de negocios en Internet
+Conocer mas sobre la implementación de diferentes lenguajes como html. Css, javascript, php para la resolución de una página web.
+Conocer la disponibilidad que nos brinda hoy en día las plataformas web. 
+
 
 CONCLUSIONES:
-Los estudiantes podrán organizar sitios web basados en el lenguaje de programación PHP para persistir información en
-una base de datos relacional.
+Las plataformas web nos ofrecen alternativas practicas para el manejo de datos como también en la parte de estilo, también ofrece métodos de seguridad el cual en otros lenguajes esto se volvería un poco mas complicado.
+
 RECOMENDACIONES:
-Probar la solución de la práctica en al menos tres navegadores web; Google Chrome, Firefox y Safari
+Probar la solución de la práctica en al menos tres navegadores web; Google Chrome, Firefox y Safari,
+Para el desarrollo del diagrama entidad relación se podría utilizar el software lucichart, de igual manera la plataforma MySQL nos permite generar un diagrama de entidad relación directamente.
+
 
 Nombre de estudiante: _____Christian Rivera________________________
 
