@@ -39,11 +39,68 @@ Crearemos el archivo readme.md para realizar el informe de la practica.
 ![image](https://user-images.githubusercontent.com/52549697/69507461-9d32f300-0f00-11ea-8314-fb1cab8e29b3.png)
 
 5.	. Generar informe de los resultados en el formato de prácticas. Debe incluir:
-a.	El diagrama E-R de la solución propuesta.
-b.	Nombre de la base de datos
+
+a.	Nombre de la base de datos
+    base_reuniones
+
 c.	Sentencias SQL de la estructura de la base de datos
+Sentencia para recuperar los datos del usuario para ello utilizamos la variable aux la cual fue recuperada con el método post
+
+![image](https://user-images.githubusercontent.com/52549697/69507685-5c87a980-0f01-11ea-9365-5554069d9c0a.png)
+
+La siguiente sentencia nos permite recuperar las reuniones en las que el usuario tiene un cargo de remitente ya que fue el usuario el que creo las reuniones.
+
+![image](https://user-images.githubusercontent.com/52549697/69507731-8640d080-0f01-11ea-88b9-bc1a715e887c.png)
+
+
+Procedemos a recuperar las reuniones en la cual el usuario tiene un cargo de invitado en esta el usuario no podrá realizar invitaciones hacia más miembros de la plataforma debido a que no cumple con el cargo de administrador 
+
+
+![image](https://user-images.githubusercontent.com/52549697/69507801-c86a1200-0f01-11ea-9e6c-d64914c58330.png)
+
+
+Obtenemos todos los usuario que serán observados por un usuario administrados
+
+![image](https://user-images.githubusercontent.com/52549697/69507888-30b8f380-0f02-11ea-8a32-18eb8e552120.png)
+
 d.	El desarrollo de cada uno de los requerimientos antes descritos
+
+A continuación se muestra el diseño de la pagina de logeo el cual permitirá definir si un usuario tiene el rol de administrador o de cliente para ello verificaremos su cargo con la que se encuentra guardada en nuestra base de datos y definiremos si el usuario efectivamente cumple con los requisitos.
+
+
+![image](https://user-images.githubusercontent.com/52549697/69508142-d1a7ae80-0f02-11ea-9516-d9ceca708f37.png)
+![image](https://user-images.githubusercontent.com/52549697/69508231-306d2800-0f03-11ea-8237-e6e1883a6a32.png)
+
+
+El usuario podrá observar sus reuniones creadas y en las que participa además de poder modificar sus datos
+![image](https://user-images.githubusercontent.com/52549697/69508394-8d68de00-0f03-11ea-9c40-9c4c63c7f596.png)
+![image](https://user-images.githubusercontent.com/52549697/69508424-a96c7f80-0f03-11ea-8465-213dea373c9b.png)
+
+El administrador podrá observar todos los usuario registrados en la aplicacion
+![image](https://user-images.githubusercontent.com/52549697/69508513-0e27da00-0f04-11ea-87bd-4357d1c9274e.png)
+![image](https://user-images.githubusercontent.com/52549697/69508513-0e27da00-0f04-11ea-87bd-4357d1c9274e.png)
+
+De igual manera el usuario tendrá la posibilidad de modificar sus datos y realizar invitaciones a las reuniones creadas por el mismo
+![image](https://user-images.githubusercontent.com/52549697/69508633-57782980-0f04-11ea-8e3b-6f355ffb270e.png)
+![image](https://user-images.githubusercontent.com/52549697/69508683-78407f00-0f04-11ea-8652-bccbece19394.png)
+![image](https://user-images.githubusercontent.com/52549697/69508731-8abab880-0f04-11ea-814d-7cc80392a20e.png)
+![image](https://user-images.githubusercontent.com/52549697/69508789-b5a50c80-0f04-11ea-86b2-3064e40150e6.png)
+
 e.	La evidencia del correcto diseño de las páginas HTML usando CSS. Para lo cuál, se puede generar fotografías instantáneas (pantallazos).
+
+Creamos estilos css para que nuestra página tengo mejor presentación hacia el usuario 
+
+![image](https://user-images.githubusercontent.com/52549697/69508835-e4bb7e00-0f04-11ea-897d-5e179a1f20e0.png)
+![image](https://user-images.githubusercontent.com/52549697/69508856-f8ff7b00-0f04-11ea-86e7-14ded8df26dc.png)
+
+![image](https://user-images.githubusercontent.com/52549697/69508882-20eede80-0f05-11ea-89a3-b7a17232ac87.png)
+
+
+![image](https://user-images.githubusercontent.com/52549697/69508959-54ca0400-0f05-11ea-989f-c83f6f8c9ee7.png)
+![image](https://user-images.githubusercontent.com/52549697/69508988-63b0b680-0f05-11ea-9c79-f339fcad31f1.png)
+
+![image](https://user-images.githubusercontent.com/52549697/69508988-63b0b680-0f05-11ea-9c79-f339fcad31f1.png)
+
 f.	La evidencia del correcto funcionamiento de cada uno de los puntos requeridos.
 g.	El informe debe incluir conclusiones apropiadas.
 h.	En el informe se debe incluir la información de GitHub (usuario y URL del repositorio de la práctica)
