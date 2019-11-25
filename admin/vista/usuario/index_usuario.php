@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../../public/estilos/estilos.css">
     <title>Gestión de usuarios</title>
 </head>
 
@@ -13,6 +14,7 @@
  header("Location: ../../../public/vista/login.html");
  }
 ?>
+ <h2>Datos personales </h2>
 
     <table style="width:100%">
         <tr>

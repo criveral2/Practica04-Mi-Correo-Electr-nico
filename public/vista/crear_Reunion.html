@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../estilos/estilos.css">
 </head>
 
 <body>
+        <section>
     <form id="formulario01" method="POST" action="../controladores/crear_Reunion.php">
         <label for="fecha_reu">Fecha (*)</label>
         <input type="text" id="fecha_reu" name="fecha_reu" value="" placeholder="Ingrese la fecha de la reunion  dd-mm-yyyy ..." required />
@@ -36,6 +38,7 @@
         <input type="submit" id="crear" name="crear" value="Aceptar" />
         <button><a href='../../admin/vista/usuario/index_usuario.php'>Cancelar</a></button>
     </form>
+</section>
 </body>
 
 </html>

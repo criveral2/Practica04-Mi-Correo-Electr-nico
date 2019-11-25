@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../../public/estilos/estilos.css">
     <title>Gestión de usuarios</title>
 </head>
 
@@ -14,7 +15,7 @@
  }
 ?>
 
-    <table style="width:100%">
+    <table style="width:80%">
         <tr>
             <th>Correo</th>   
             <th>Contraseña</th> 
@@ -34,7 +35,7 @@
 
         if ($result->num_rows > 0) {
 
-            echo "Usuarios";
+            echo "<h2>Usuarios registrados </h2>";
             while ($row = $result->fetch_assoc()) {
                 
                 echo "<tr>";
@@ -64,7 +65,7 @@
         ?>
     </table>
 
-    <table style="width:100%">
+    <table style="width:80%">
         <tr>
             <th>Fecha</th>   
             <th>Hora</th> 
@@ -89,7 +90,7 @@
 
         if ($result1->num_rows > 0) {
 
-            echo "Reuniones";
+            echo "<h2> Reuniones existentes </h2>";
             while ($row1 = $result1->fetch_assoc()) {
                 
                 echo "<tr>";

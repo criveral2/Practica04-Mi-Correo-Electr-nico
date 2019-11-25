@@ -67,7 +67,7 @@
         } else {
             echo "<p class='error'>Error: " . mysqli_error($conn) . "</p>";
         }
-        
+
     }
 
 
@@ -76,7 +76,7 @@
 
     //cerrar la base de datos
     $conn->close();
-    echo "<a href='../vista/crear_Reunion.html'>Regresar</a>";
+    echo "<a href='../../admin/vista/usuario/index_usuario.html'>Regresar</a>";
 
     ?>
 </body>

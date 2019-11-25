@@ -3,11 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../../public/estilos/estilos.css">
     <title>Modificar datos de persona</title>
 </head>
 
 <body>
-    
+    <section>
     <?php
     include '../../../config/conexionBD.php';
      /*echo $_GET["invitar"];*/
@@ -51,6 +52,7 @@
     }
     $conn->close();
     ?>
+    </section>
 </body>
 
 </html>
