@@ -101,11 +101,15 @@ Creamos estilos css para que nuestra página tengo mejor presentación hacia el 
 
 ![image](https://user-images.githubusercontent.com/52549697/69508988-63b0b680-0f05-11ea-9c79-f339fcad31f1.png)
 
-f.	La evidencia del correcto funcionamiento de cada uno de los puntos requeridos.
-g.	El informe debe incluir conclusiones apropiadas.
+![image](https://user-images.githubusercontent.com/52549697/69509102-b4c0aa80-0f05-11ea-8432-2ac840cfcb79.png)
+![image](https://user-images.githubusercontent.com/52549697/69509171-036e4480-0f06-11ea-87ca-8f12fe5c4ecd.png)
+
+
+
 h.	En el informe se debe incluir la información de GitHub (usuario y URL del repositorio de la práctica)
-i.	En el informe se debe incluir la firma digital del estudiante
-6.	En el archivo README del repositorio debe constar la misma información del informe de resultados de la práctica que se indica en el punto anterior.
+
+Usuario: criveral2
+Proyecto: https://github.com/criveral2/Practica04-Mi-Correo-Electr-nico.git
 
 <pre>
 
