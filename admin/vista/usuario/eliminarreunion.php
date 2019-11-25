@@ -51,7 +51,7 @@
                 <br>
 
                 <input type="submit" id="eliminar" name="eliminar" value="Eliminar" />
-                <input type="reset" id="cancelar" name="cancelar" value="Cancelar" />
+                <button><a href='index.php'>Cancelar</a></button>
             </form>
     <?php
         }

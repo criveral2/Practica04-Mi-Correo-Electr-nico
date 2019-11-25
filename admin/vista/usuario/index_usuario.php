@@ -10,7 +10,7 @@
 <?php
  session_start();
  if(!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE){
- header("Location: ../../public/vista/login.html");
+ header("Location: ../../../public/vista/login.html");
  }
 ?>
 
@@ -28,7 +28,7 @@
 
         </tr>
         <?php
-        session_start();
+        
         include '../../../config/conexionBD.php';
 
         echo "valor :" . $_SESSION['usu'];
@@ -243,6 +243,7 @@
 
 
     <button><a href='../../../public/vista/crear_Reunion.html'>Crear Reunion</a></button>
+    <button><a href='../../../config/cerrar_sesion.php'>Cerrar Sesion</a></button>
 
 
 

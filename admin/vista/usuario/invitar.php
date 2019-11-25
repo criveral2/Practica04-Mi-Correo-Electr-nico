@@ -41,7 +41,7 @@
                 
 
                 <input type="submit" id="invitar" name="invitar" value="invitar" />
-                <input type="reset" id="cancelar" name="cancelar" value="Cancelar" />
+                <button><a href='index_usuario.php'>Cancelar</a></button>
             </form>
     <?php
         }

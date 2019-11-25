@@ -10,7 +10,7 @@
 <?php
  session_start();
  if(!isset($_SESSION['isLogged']) || $_SESSION['isLogged'] === FALSE){
- header("Location: ../../public/vista/login.html");
+    header("Location: ../../../public/vista/login.html");
  }
 ?>
 
@@ -117,6 +117,7 @@
         $conn->close();
         ?>
     </table>
+    <button><a href='../../../config/cerrar_sesion.php'>Cerrar Sesion</a></button>
 
 
     
